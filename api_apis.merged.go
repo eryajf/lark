@@ -10527,6 +10527,7 @@ type GetBitableViewListRespItem struct {
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uYDO04iN4QjL2gDN
 //
+
 // Deprecated
 func (r *BotService) AddBotToChat(ctx context.Context, request *AddBotToChatReq, options ...MethodOptionFunc) (*AddBotToChatResp, *Response, error) {
 	if r.cli.mock.mockBotAddBotToChat != nil {
@@ -13677,6 +13678,7 @@ type GetChatListOfSelfRespItem struct {
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uMTO5QjLzkTO04yM5kDN
 //
+
 // Deprecated
 func (r *ChatService) GetChatOld(ctx context.Context, request *GetChatOldReq, options ...MethodOptionFunc) (*GetChatOldResp, *Response, error) {
 	if r.cli.mock.mockChatGetChatOld != nil {
@@ -15024,6 +15026,7 @@ type GetDepartmentListRespItemStatus struct {
 //
 // doc: https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/contact-v3/department/list
 //
+
 // Deprecated
 func (r *ContactService) GetDepartmentListOld(ctx context.Context, request *GetDepartmentListOldReq, options ...MethodOptionFunc) (*GetDepartmentListOldResp, *Response, error) {
 	if r.cli.mock.mockContactGetDepartmentListOld != nil {
@@ -17257,6 +17260,7 @@ type GetUserRespUserCustomAttrValueGenericUser struct {
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uIzNz4iM3MjLyczM
 //
+
 // Deprecated
 func (r *ContactService) BatchGetUser(ctx context.Context, request *BatchGetUserReq, options ...MethodOptionFunc) (*BatchGetUserResp, *Response, error) {
 	if r.cli.mock.mockContactBatchGetUser != nil {
@@ -17349,6 +17353,7 @@ type BatchGetUserRespUserInfo struct {
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uUzMyUjL1MjM14SNzITN
 //
+
 // Deprecated
 func (r *ContactService) BatchGetUserByIDOld(ctx context.Context, request *BatchGetUserByIDOldReq, options ...MethodOptionFunc) (*BatchGetUserByIDOldResp, *Response, error) {
 	if r.cli.mock.mockContactBatchGetUserByIDOld != nil {
@@ -17564,6 +17569,7 @@ type GetUserListRespItemCustomAttrValueGenericUser struct {
 //
 // doc: https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/contact-v3/user/list
 //
+
 // Deprecated
 func (r *ContactService) GetUserListOld(ctx context.Context, request *GetUserListOldReq, options ...MethodOptionFunc) (*GetUserListOldResp, *Response, error) {
 	if r.cli.mock.mockContactGetUserListOld != nil {
@@ -17703,6 +17709,7 @@ type GetUserListOldRespItemCustomAttrValueGenericUser struct {
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uMTM4UjLzEDO14yMxgTN
 //
+
 // Deprecated
 func (r *ContactService) SearchUserOld(ctx context.Context, request *SearchUserOldReq, options ...MethodOptionFunc) (*SearchUserOldResp, *Response, error) {
 	if r.cli.mock.mockContactSearchUserOld != nil {
@@ -19828,6 +19835,7 @@ type SearchDriveFileRespDocsEntity struct {
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uUTNzUjL1UzM14SN1MTN/delete-sheet
 //
+
 // Deprecated
 func (r *DriveService) DeleteDriveSheetFile(ctx context.Context, request *DeleteDriveSheetFileReq, options ...MethodOptionFunc) (*DeleteDriveSheetFileResp, *Response, error) {
 	if r.cli.mock.mockDriveDeleteDriveSheetFile != nil {
@@ -24697,6 +24705,7 @@ type SetSheetValueImageResp struct {
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uATO2YjLwkjN24CM5YjN
 //
+
 // Deprecated
 func (r *DriveService) ImportSheet(ctx context.Context, request *ImportSheetReq, options ...MethodOptionFunc) (*ImportSheetResp, *Response, error) {
 	if r.cli.mock.mockDriveImportSheet != nil {
@@ -31222,6 +31231,7 @@ type GetHireApplicationRespApplicationApplicationPreferredCityName struct {
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uMzM1YjLzMTN24yMzUjN/hire-v1/application-interview/list
 //
+
 // Deprecated
 func (r *HireService) GetHireApplicationInterviewList(ctx context.Context, request *GetHireApplicationInterviewListReq, options ...MethodOptionFunc) (*GetHireApplicationInterviewListResp, *Response, error) {
 	if r.cli.mock.mockHireGetHireApplicationInterviewList != nil {
@@ -32641,6 +32651,7 @@ type GetHireOfferByApplicationRespOfferJobInfo struct {
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uMzM1YjLzMTN24yMzUjN/hire-v1/offer_schema/get
 //
+
 // Deprecated
 func (r *HireService) GetHireOfferSchema(ctx context.Context, request *GetHireOfferSchemaReq, options ...MethodOptionFunc) (*GetHireOfferSchemaResp, *Response, error) {
 	if r.cli.mock.mockHireGetHireOfferSchema != nil {

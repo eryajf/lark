@@ -49,6 +49,7 @@ func (r *EventCallbackService) ListenSecurityCallback(ctx context.Context, heade
 //
 // doc: https://open.feishu.cn/document/ukTMukTMukTM/uUTNz4SN1MjL1UzM
 //
+
 // Deprecated: please use ListenCallback instead
 func (r *EventCallbackService) ListenCardCallback(ctx context.Context, checkSecurity bool, header http.Header, reader io.Reader, writer http.ResponseWriter) {
 	r.listenAllCallback(ctx, checkSecurity, header, reader, writer)

@@ -15,6 +15,7 @@
 # vendor/
 
 .idea/
+.vscode/
 ttt
 coverage.txt
 coverage.tmp
